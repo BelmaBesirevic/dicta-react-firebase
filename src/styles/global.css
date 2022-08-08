@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0 30px;
+  background-color: #f0eff4;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+h1,
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 42px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h2,
+p,
+span,
+textarea,
+textarea::placeholder,
+input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+

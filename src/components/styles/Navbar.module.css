@@ -1,0 +1,30 @@
+.header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.alinks {
+  margin-left: 20px;
+  color: #333;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.alinks:hover,
+.alinks:active {
+  transition: all 0.3s ease-in-out;
+  color: #4361EE;
+}
